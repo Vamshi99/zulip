@@ -1,0 +1,9 @@
+[commit]
+bears = GitCommitBear
+shortlog_regex = (^(.+:\ )?[A-Z].+)
+shortlog_imperative_check = False
+shortlog_trailing_period = True
+[python]
+bears = PyFlakesBear, PEP8Bear
+files = *.py
+
